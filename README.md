@@ -3,6 +3,10 @@ Python script for merging ponte config files of multiple people into one.
 
 Keep in mind that the name of the config file will become the prefix of the tag after merging so name the files as you want the prefix to be. 
 
+Running the tool again will regenerate the file. 
+
+> :warning: The tool merges ALL json files in the folder except the `merged-config.json`. If you rename the `merged-config.json` to something else and run it again, things will get messed up.  
+
 ### Pre-requisites 
 Must have Python 3 installed in the system.
 
