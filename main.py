@@ -186,7 +186,7 @@ def main():
                       " does not have all the required keys. Regenerate the file from Ponte.")
 
     json_file = open(MERGED_FILE_NAME, "w")
-    json.dump(MERGED, json_file, indent=0)
+    json.dump(MERGED, json_file, indent=4)
     json_file.close()
 
 
