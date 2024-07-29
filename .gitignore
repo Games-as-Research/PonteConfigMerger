@@ -1,3 +1,8 @@
+# ponte config files to be ignored
+*[Cc]onfig.json 
+# comment this line out if you need to commit any json files although unlikely.   
+*.json  
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
